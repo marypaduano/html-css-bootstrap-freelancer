@@ -3,6 +3,20 @@
     --aqua: rgb(26, 188, 156);
 }
 
+ul,
+li,
+menu{
+    list-style: none;
+}
+
+.mp_list{
+    display: flex;
+}
+
+img {
+    max-width: 100%;
+}
+
 html{
     color: white;
     text-transform: uppercase;
@@ -17,10 +31,24 @@ html{
     align-items: center;
 }
 
+.start{
+    background-color: var(--aqua);
+}
+
+.star::before,
+.star::after{
+  content: '';
+  display: inline-block;
+  width: 170px;
+  height: 3px;
+  background-color: white;
+  border-radius: 50px;
+}
+
 /* debug */
 
-.container{
-    border: 1px solid salmon;
+[class^='container']{
+    border: 2px solid salmon;
 }
 
 [class^='col'] {
