@@ -1,0 +1,33 @@
+:root{
+    --nightblue: rgb(44, 62, 80);
+    --aqua: rgb(26, 188, 156);
+}
+
+html{
+    color: white;
+    text-transform: uppercase;
+}
+
+.main-header{
+    background-color: var(--nightblue);
+}
+
+.top_row{
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* debug */
+
+.container{
+    border: 1px solid salmon;
+}
+
+[class^='col'] {
+	padding: 10px;
+	background-color: cornflowerblue;
+	color: white;
+	border: 3px solid green;
+}
+
+
