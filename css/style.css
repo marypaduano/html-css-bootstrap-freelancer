@@ -18,7 +18,6 @@ img {
 }
 
 html{
-    color: white;
     text-transform: uppercase;
 }
 
@@ -26,14 +25,10 @@ html{
     background-color: var(--nightblue);
 }
 
-.top_row{
-    justify-content: space-between;
-    align-items: center;
-}
-
-.start,
+.hero,
 .about{
     background-color: var(--aqua);
+    color: white;
 }
 
 .star::before,
@@ -42,7 +37,7 @@ html{
   display: inline-block;
   width: 170px;
   height: 3px;
-  background-color: white;
+  background-color: currentColor;
   border-radius: 50px;
 }
 
@@ -50,28 +45,23 @@ html{
     color: rgb(19, 16, 16);
 }
 
-.star_bl{
-    color: var(--nightblue);
-}
-
 .mp_card{
-    padding: 30px;
     border-radius: 20px;
-    background-color: pink;
+}
+
+.text-start{
+    text-transform: none;
+}
+
+.border-bottom-input {
+    border-bottom:1px solid rgb(159, 154, 154);
+  }
+
+.noborder{
+    border: 0;
 }
 
 
-/* debug */
 
-[class^='container']{
-    border: 2px solid salmon;
-}
-
-[class^='col'] {
-	padding: 10px;
-	background-color: cornflowerblue;
-	color: white;
-	border: 3px solid green;
-}
 
 
