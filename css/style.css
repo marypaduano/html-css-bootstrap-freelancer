@@ -9,6 +9,28 @@ menu{
     list-style: none;
 }
 
+.menu-social{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.menu-social_icon{
+    border: 1px solid currentColor;
+    border-radius: 999px;
+    font-size: 18px;
+    padding: 8px 16px;
+}
+
+a{
+    text-decoration: none;
+    color: currentColor;
+}
+
+.s-bootstrap{
+   color: var(--aqua);
+}
+
 .mp_list{
     display: flex;
 }
@@ -23,6 +45,29 @@ html{
 
 .main-header{
     background-color: var(--nightblue);
+}
+
+.page-footer{
+    background-color: var(--nightblue);
+    text-transform: none;
+}
+
+.footer-copyright{
+    background-color: rgb(36, 36, 47);
+    text-transform: none;
+}
+
+.title{
+    text-transform: uppercase;
+}
+
+.copy_text{
+    font-size: 12px;
+}
+
+.btn-contact_me{
+    background-color: var(--aqua);
+    color: white;
 }
 
 .hero,
@@ -43,10 +88,6 @@ html{
 
 .title_bl{
     color: rgb(19, 16, 16);
-}
-
-.mp_card{
-    border-radius: 20px;
 }
 
 .text-start{
