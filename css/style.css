@@ -31,7 +31,8 @@ html{
     align-items: center;
 }
 
-.start{
+.start,
+.about{
     background-color: var(--aqua);
 }
 
@@ -44,6 +45,21 @@ html{
   background-color: white;
   border-radius: 50px;
 }
+
+.title_bl{
+    color: rgb(19, 16, 16);
+}
+
+.star_bl{
+    color: var(--nightblue);
+}
+
+.mp_card{
+    padding: 30px;
+    border-radius: 20px;
+    background-color: pink;
+}
+
 
 /* debug */
 
