@@ -9,6 +9,19 @@ menu{
     list-style: none;
 }
 
+a{
+    text-decoration: none;
+    color: currentColor;
+}
+
+img {
+    max-width: 100%;
+}
+
+html{
+    text-transform: uppercase;
+}
+
 .menu-social{
     display: flex;
     justify-content: center;
@@ -22,10 +35,6 @@ menu{
     padding: 8px 16px;
 }
 
-a{
-    text-decoration: none;
-    color: currentColor;
-}
 
 .s-bootstrap{
    color: var(--aqua);
@@ -35,16 +44,21 @@ a{
     display: flex;
 }
 
-img {
-    max-width: 100%;
-}
-
-html{
-    text-transform: uppercase;
+.mp_card img{
+    border-radius: 10px;
 }
 
 .main-header{
     background-color: var(--nightblue);
+}
+
+.avatar{
+    width: 200px;
+    margin: 0 auto;
+}
+
+.pcolumn{
+    column-count: 2;
 }
 
 .page-footer{
@@ -79,7 +93,7 @@ html{
 .star::before,
 .star::after{
   content: '';
-  display: inline-block;
+  display: block;
   width: 170px;
   height: 3px;
   background-color: currentColor;

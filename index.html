@@ -14,7 +14,7 @@
 </head>
 <body>
     <header class="main-header py-3">
-        <nav class="navbar navbar-expand-md">
+        <nav class="navbar navbar-expand-md navbar-dark">
             <div class="container">
                 <a href="#" class="navbar-brand">                     
                     <h4 class="title">Start Bootstrap</h4>
@@ -45,7 +45,7 @@
         <section class="hero py-5 text-white text-center">
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-2">
+                    <div class="col">
                         <figure>
                             <img class="avatar"src="./img/avatar.svg" alt="">
                         </figure>
@@ -57,7 +57,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col star pb-3">
+                    <div class="col star pb-3 d-flex justify-content-center align-items-center gap-2">
                         <i class="fa-solid fa-star"></i>
                     </div>         
 
@@ -86,7 +86,7 @@
                     </div>
                 </div>
                 <div class="row justify-content-center">
-                    <div class="col star pb-3">
+                    <div class="col star pb-3 d-flex justify-content-center align-items-center gap-2">
                         <i class="fa-solid fa-star"></i>
                     </div>                     
                 </div>
@@ -135,16 +135,13 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col star pb-3">
+                    <div class="col star pb-3 d-flex justify-content-center align-items-center gap-2">
                         <i class="fa-solid fa-star"></i>
                     </div>      
                 </div>
                 <div class="row text-start justify-content-center">
-                    <div class="col-md-5">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia magnam impedit obcaecati odio laudantium soluta voluptatem temporibus quae? Neque atque natus asperiores explicabo rem sapiente voluptatibus necessitatibus dolor quis. Numquam.</p>
-                    </div>
-                    <div class="col-md-5">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi sint eligendi saepe a et nemo, officiis alias hic sit dolorem. Enim, harum. Odio assumenda unde rerum officiis modi doloribus perspiciatis?Quia magnam impedit obcaecati odio laudantium soluta voluptatem temporibus quae? Neque atque natus asperiores.</p>
+                    <div class="col-9">
+                        <p class="pcolumn">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil aut esse voluptatibus, perspiciatis quas totam consectetur quasi, enim at ipsam vero architecto! Quibusdam ipsum assumenda vitae placeat quas numquam porro eos veniam error in. Esse ipsam omnis cumque odio doloribus.</p>
                     </div>
                 </div>
                 <div class="row justify-content-center">
@@ -167,7 +164,7 @@
                     </div>
                 </div>
                 <div class="row justify-content-center text-center">
-                    <div class="col star pb-3">
+                    <div class="col star pb-3 d-flex justify-content-center align-items-center gap-2">
                         <i class="fa-solid fa-star"></i>
                     </div>                     
                 </div>
@@ -197,15 +194,53 @@
         </section>
         <!-- fine sezione contact -->
     </main>
+    <!-- fine main -->
+    <!-- inizio footer -->
     <footer class="text-center text-white">
         <section class=" page-footer py-5">
           <div class="container">
             <div class="row gy-4">
-              <div class="col-lg-4"></div>
-              <div class="col-lg-4"></div>
-              <div class="col-lg-4"></div>
+              <div class="col-lg-4">
+                <span class="title">location</span>
+                <address>2215 John Daniel Drive Clark, MO 54243</address>
+              </div>
+              <div class="col-lg-4">
+                <span class="title">aroud the web</span>
+                <div class="row ">
+                    <ul class="menu-social">
+                        <li class="menu-social_icon">
+                            <a href="#">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>    
+                        </li>
+                        <li class="menu-social_icon">
+                            <a href="#">
+                                <i class="fa-brands fa-google-plus-g"></i>
+                            </a>
+                        </li>
+                        <li class="menu-social_icon">
+                            <a href="#">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="menu-social_icon">
+                            <a href="#">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <span class="title">about freelancer</span>
+                <div>
+                    <span>
+                        Freelance is a free to use, open source Bootstrap theme created by
+                        <a class="s-bootstrap" href="#">Start Bootstrap</a>
+                    </span>
+                </div>
+              </div>
             </div>
-          </div>
         </section>
     
         <section class="py-3 footer-copyright">
@@ -213,8 +248,12 @@
             <span class="copy_text">Copyright &copy; Your Website 2019</span>
           </div>
         </section>
+
+      <!-- fine footer -->
          
     </footer>
-    
+    <!-- fine footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>    
 </body>
 </html>
